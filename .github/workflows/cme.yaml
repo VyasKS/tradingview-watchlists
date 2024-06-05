@@ -1,7 +1,8 @@
 name: CME
 on:
-  schedule:
-    - cron:  '4 0 * * *'
+  workflow_dispatch:
+  # schedule:
+  #   - cron:  '4 0 * * *'
 jobs:
   build:
     name: CME tickers
